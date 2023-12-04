@@ -1,0 +1,30 @@
+.container {
+  font-family: "circular";
+  color: #fff;
+
+  .btns {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    margin-top: 20px;
+  }
+
+  button {
+    background: unset;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 5px 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+
+    &:hover {
+      background: #fff;
+      color: #00d2ff;
+    }
+  }
+}
+
+.restartQuiz {
+  text-align: center;
+}
